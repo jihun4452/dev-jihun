@@ -1,0 +1,93 @@
+# 📚 공부 기록
+
+기존에는 GitHub 팀 레포를 파서 주제나 책별로 레포지토리를 생성해 작업했지만,
+생각보다 쌓이다 보니 한눈에 보기 좋지 않아 하나의 레포에 묶어 기록하려 합니다.
+
+> 잘 정리하고 적재하여 보관하는 것이 목표입니다.
+
+* 아래 항목 중 **취소선이 없는 것**은 이 기록을 시작하기 이전에 학습/완독한 것이라 별도 기록이 없습니다.
+* **하이퍼링크가 달린 항목**은 이 레포에 정리한 학습 기록이 있는 항목입니다.
+* 이미 읽은 책이라도 모든 내용을 완전히 습득한 것은 아니므로, 추후 다시 정리하며 재작성할 수 있습니다.
+
+## 수강한 강의
+
+### Java / Spring
+- 김영한 - 자바 초급 ~ 중급 2
+- 자바 ORM 표준 JPA 프로그래밍
+- 실전! Spring Data JPA
+- 실전! Querydsl
+
+### Test / CodingTest
+- 자바 스프링 테스트 코드를 추가하고 싶은 개발자
+- 자바 코딩테스트 입문
+
+### Infra / DevOps
+- 박재성의 Docker 기초 강의
+- 젠킨스를 이용한 CI/CD 구축
+
+### Data / Messaging / Search
+- 개발자라면 알아야 할 Redis 기본
+- 핵심만 빠르게 끝내는 실전 Kafka
+- 실전에서 바로 써먹는 Elasticsearch 입문
+- 개발자에게 필요한 로그 관리
+
+## 독서
+
+### 완독 (기록 없음 어느 레포에 흩어져있습니다.)
+
+#### Clean Code / Architecture / OOP
+- 클린 코드
+- 클린 아키텍처
+- 객체지향의 사실과 오해
+- 토비의 스프링
+
+#### Test
+- 단위 테스트 (Unit Testing)
+- 자바와 JUnit을 활용한 실용주의 단위 테스트
+
+#### Java / Performance
+- 이것이 자바다
+- 자바 성능 튜닝 이야기
+
+#### Database
+- 개발자를 위한 Redis
+
+#### Growth / CS
+- 함께 자라기
+- 이것이 취업을 위한 CS 지식이다
+
+### 읽는 중 (정리 예정)
+
+> 아래 항목들은 읽으면서 정리한 기록을 하이퍼링크로 첨부할 예정입니다.
+
+- 모던 자바 인 액션
+
+## 사이드 프로젝트
+
+- **세모** — AI 수학 오답노트 (CMC 18기 대상 수상작) · 2025.12 ~ 현재
+- **감자 기술 블로그** — 교내 동아리 '감자' 기술 블로그 · 2025.06 ~ 현재
+- **한모** — 교내 축제 미팅 서비스 (실사용자 200명) · 2025.03 ~ 2025.06
+- **러뷰** — 연인 장소 리뷰 서비스 · 2024.08 ~ 2024.12
+
+## 해커톤
+
+- 교내 동아리 감자 해커톤 — 2024.06
+- CMC 너디너리 해커톤 — 2025.11 · **대상 수상**
+
+
+## 오픈소스 기여
+
+- **JUnit** — `@ParameterizedClass` 필드 주입 시 예외 메시지 명확성 개선
+  - PR: [#5088](https://github.com/junit-team/junit-framework/pull/5088)
+  - [블로그 정리](https://velog.io/@jihun4452/JUnit%EC%97%90-%EA%B8%B0%EC%97%AC%EB%A5%BC-%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4)
+
+- **Apache Seata** — Consul KV 테스트에 재시도 로직을 추가하여 안정화
+  - PR: [#7584](https://github.com/apache/incubator-seata/pull/7584)
+  - [블로그 정리](https://velog.io/@jihun4452/apache-incubator-seata%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%B2%AB-%EA%B8%B0%EC%97%AC)
+
+- **Apache SeaTunnel** — SQL 반환 타입 및 문서 형식 명확화
+  - PR: [#9711](https://github.com/apache/seatunnel/pull/9711)
+  - [블로그 정리](https://velog.io/@jihun4452/apache-seatunnel-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%91%90%EB%B2%88%EC%A7%B8-%EA%B8%B0%EC%97%AC)
+
+- **Apache Seata** — 프런트엔드 의존성 업그레이드 (`@babel/runtime`, `axios`)
+  - PR: [#7673](https://github.com/apache/incubator-seata/pull/7673), [#7699](https://github.com/apache/incubator-seata/pull/7699)
