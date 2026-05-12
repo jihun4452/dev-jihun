@@ -1,7 +1,7 @@
 ### Consumer Group, Consumer
 컨슈머 그룹에 속하지 않는 컨슈머는 없다. 컨슈머가 있으면 무조건 컨슈머 그룹이 있다. 컨슈머는 단 하나의 그룹에만 속해야 한다.
 
-![alt text](image.png)
+![alt text](img/image8.png)
 
 ### 파티션과 컨슈머 개수
 
